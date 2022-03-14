@@ -6,8 +6,7 @@ public class MethodsIntro {
 
         topla(3,5);
         topla(9,7);
-        topla(3,6);
-        topla(5,7);
+
 
 
     }
