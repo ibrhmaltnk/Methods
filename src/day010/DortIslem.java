@@ -15,8 +15,9 @@ public class DortIslem {
 
     public static void ikiSayiyiTopla(int a, int b){
         int toplam=a+b;
-        System.out.println(String.format("İki sayının toplamı %d.",toplam));
+        System.out.println(String.format("İki sayının toplamı %5.2f.",toplam));
     }
+
 
     //İki tam sayıyı toplayıp, sonucunu çağırıldığı yere döndüren bir metot yazınız.
     public static int topla(int x,int y){
