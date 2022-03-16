@@ -6,8 +6,22 @@ package day011;
  */
 public class Calculator {
     public static void main(String[] args) {
+
         topla(4,4);
         topla(4.3,5);
+        int result1=cikar(5,2);
+        double result2=cikar(8.9,7.3);
+        System.out.println(result1);
+        System.out.println(String.format("%4.2f",result2));
+    }
+
+    public static double cikar(double x, double y) {
+        return x-y;
+    }
+
+
+    public static int cikar(int x,int y){
+        return x-y;
     }
 
 
@@ -19,6 +33,7 @@ public class Calculator {
     public static int topla(int x,int y){
         return x+y;
     }
+
 
     public static double topla(double x, double y){
         return x+y;
